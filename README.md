@@ -17,3 +17,4 @@ The project allows for flexibility by incorporating different APIs for URL short
 ## Future Enhancements
 Potential improvements for this project could involve integrating multiple URL shortening APIs for comparison, implementing error handling for invalid URLs, or creating a user interface for a more user-friendly experience.
 
+![Capture](https://github.com/Manisha2204/CodeClauseInternship_URL-SHORTNER/assets/118578660/40a5abc8-58b5-4f48-98de-fe319ac09c55)
