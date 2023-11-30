@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <style>
+        body{
+            background-image: url(https://w0.peakpx.com/wallpaper/677/889/HD-wallpaper-black-stylish-background-green-neon-lines-green-light-effects-abstract-black-background.jpg);
+        }
+    </style>
+    <div class="main">
+        <p>URL Shortener</p>
+  <input type="url" placeholder="Enter your URL" id="inputBox" required>
+  <button onclick="shortenURL()" id="shorten">Shorten</button>
+
+  <br><br>
+
+  <input type="text" placeholder="Shortened URL" id="outputBox" readonly onclick="copyContent(this)">
+</div>
+     <script src="script.js"></script>
+</body>
+</html>

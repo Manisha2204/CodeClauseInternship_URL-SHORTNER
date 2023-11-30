@@ -1,0 +1,78 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  
+  .main{
+    position: relative;
+    background: linear-gradient(to right, rgb(214, 206, 206), rgb(230, 129, 82));
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 5px solid rgb(1, 1, 12);
+    border-radius: 20px;
+  }
+  
+  #inputBox{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  #shorten{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color:  rgb(3, 83, 35);
+  }
+  
+  #shorten:hover{
+    background-color: skyblue;
+  }
+  
+  #outputBox{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  .main p{
+    /* background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+  }
